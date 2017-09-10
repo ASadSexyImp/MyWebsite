@@ -57,5 +57,13 @@ nav a:hover{
   background: #fff;
   color: #ff4c4c;
 }
+li{
+  float: left;
+  list-style-type: none;
+}
+.header{
+  float:left;
+  padding: 20px 10px;
+}
 
 
