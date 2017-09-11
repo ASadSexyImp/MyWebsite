@@ -2,68 +2,78 @@
   margin:0;
   padding:0;
 }
-.youtube{
-  background: #f9f9f9;
-  color: #ff4c4c;
-  font-size: 12px;
-  border:1px solid #ff4c4c;
-  padding: 8px;
-  text-decoration: none;
-  border-radius: 8px;
-}
-.youtube:hover{
-  background: #ff4c4c;
-  color: #f9f9f9;
-  transition: 1s;
-}
-.con{
-  width:600px;
-  margin: auto;
-}
-.top-image{
-  float: left;
-  margin-right: 10px;
-}
-.title{
-  float: left;
-  font-size: 15px;
-  width:350px;
-  margin-bottom: 5px;
-}
-.description{
-  float:left;
-  font-size: 12px;
-  width:350px;
-  margin-bottom: 5px;
-}
-nav{
-  overflow: hidden;
-  background: #ff4c4c;
-  margin-bottom: 30px;
+
+body {
+  font-family: "Avenir Next";
 }
 
-nav li{
-  float: left;
-  list-style-type: none;
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #26d0c9;
+    color: #fff;
 }
-nav a{
-  text-decoration: none;
-  color: #fff;
-  padding: 8px;
-  display: block;
-  transition: 0.5s;
-}
-nav a:hover{
-  background: #fff;
-  color: #ff4c4c;
-}
-li{
-  float: left;
-  list-style-type: none;
-}
-.header{
+
+.header-logo{
   float:left;
   padding: 20px 10px;
+}
+
+.header-list{
+  float:right;
+  padding: 20px 10px;
+}
+
+li{
+  float: right;
+  list-style-type: none;
+  margin: 20px 10px;
+}
+
+.top{
+    background-image: url(../img/earth.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+}
+
+.vision{
+  position: absolute;
+  text-align: center;
+  font-size:100px;
+  color: #FFFFFF;
+}
+
+.AmI{
+    color:#FFF;
+    background-image: url(../img/hud.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Web{
+    background-image: url(../img/web.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact{
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+footer {
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 150px;
+    color: #000;
+    height: 150px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
