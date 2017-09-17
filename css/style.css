@@ -3,8 +3,13 @@
   padding:0;
 }
 
+@font-face {
+    font-family: "Badaboom BB";
+    src: url("../fonts/BADABB__.TTF") format("opentype");
+}
+
 body {
-  font-family: "Avenir Next";
+  font-family: "Badaboom BB";
 }
 
 nav {
