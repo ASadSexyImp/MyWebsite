@@ -14,8 +14,7 @@ body {
 
 nav {
   width: 100%;
-  background-color: #26d0c9;
-  color: #fff;
+  color: #E8AB15;
   overflow: hidden;
   position: fixed;
   text-align: center;
@@ -27,7 +26,10 @@ nav {
   border-radius: 90px;
   font-size: 30px;
   float:left;
-  padding: 20px 20px;
+  margin: 10px 10px;
+  border: 1px solid #B91C22;
+  margin-left: 30px;
+  background-color: #000;
 }
 
 .img {
@@ -36,25 +38,32 @@ nav {
   text-align: center;
 }
 
+nav ul {
+margin-right: 20px;
+}
+
 nav li {
-  margin-top: 10px;
-  padding: 20px 20px;
-  display: block;
+  margin-top: 15px;
+  margin-right: 10px;
   float: right;
   list-style-type: none;
   border-radius: 90px;
-  text-decoration: underline;
+  border: 1px solid #B91C22;
+  background-color: #000;
 }
 
 nav a {
+  margin: auto;
+  padding: 15px 15px;
   text-decoration: none;
-  color: #ffffff;
+  color: #B91C22;
   display: block;
   transition: 1s;
 }
 
 nav a:hover {
-  background: #ffffff;
+  border-radius: 90px;
+  background: #B91C22;
   color: #000000;
 }
 
@@ -65,24 +74,6 @@ nav a:hover {
   height: 100vh;
 }
 
-.vision {
-  text-align: center;
-  font-size: 200px;
-  color: #FFFFFF;
-  height: 50vh;
-  padding-top: 100px;
-  text-shadow: 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000, -2px -2px 1px #000;
-  animation: passing_7595 10s linear infinite;
-  transform-origin: 50% 50%;
-}
-
-
-@keyframes passing_7595 {
-  0% { transform:translateX(-50%); opacity:0 }
-  25% { transform:translateX(0%); opacity:1 }
-  50% { transform:translateX(50%); opacity:0 }
-  100% { transform:translateX(50%); opacity:0 }
-}
 
 .AmI {
   color:#FFF;
@@ -97,7 +88,7 @@ nav a:hover {
   text-align: center;
   font-size: 50px;
   margin-bottom: 20%;
-  text-shadow: 2px 2px 1px #00FFFF, -2px 2px 1px #00FFFF, 2px -2px 1px #00FFFF, -2px -2px 1px #00FFFF;
+  text-shadow: 2px 2px 1px #26d0c9, -2px 2px 1px #26d0c9, 2px -2px 1px #26d0c9, -2px -2px 1px #26d0c9;
 }
 
 .AmI li {
@@ -109,7 +100,7 @@ nav a:hover {
   left: 10%;
   right: auto;
   text-align: center;
-  background-color: #00FFFF;
+  background-color: #26d0c9;
   list-style-type: none;
 }
 
@@ -148,7 +139,12 @@ nav a:hover {
   padding-top: 7%;
   text-align: center;
   font-size: 50px;
-  text-shadow: 2px 2px 1px #FF0000, -2px 2px 1px #FF0000, 2px -2px 1px #FF0000, -2px -2px 1px #FF0000;
+  text-shadow: 2px 2px 1px #B91C22, -2px 2px 1px #B91C22, 2px -2px 1px #B91C22, -2px -2px 1px #B91C22;
+}
+
+.Web li:hover{
+  background-color:
+  text-shadow: 2px 2px 1px #B91C22, -2px 2px 1px #B91C22, 2px -2px 1px #B91C22, -2px -2px 1px #B91C22;
 }
 
 .float {
@@ -164,9 +160,10 @@ nav a:hover {
 }
 
 .Web a{
-  color: #FFF;
+  padding: 50px 50px;
+  color: #000;
   font-size: 20px;
-  text-shadow: 2px 2px 1px #FF0000, -2px 2px 1px #FF0000, 2px -2px 1px #FF0000, -2px -2px 1px #FF0000;
+  text-shadow: 2px 2px 1px #B91C22, -2px 2px 1px #B91C22, 2px -2px 1px #B91C22, -2px -2px 1px #B91C22;
 }
 
 .Web li {
@@ -180,7 +177,14 @@ nav a:hover {
   border-radius: 90px;
   border-color: #000;
   float: left;
+  border: 2px solid #000;
+}
+
+.Web li:hover{
+  border-radius: 90px;
+  background: #B91C22;
   color: #000;
+  opacity: 0.5;
 }
 
 .Youtube {
@@ -220,6 +224,7 @@ nav a:hover {
 .Contact p{
   text-align: center;
   font-size: 50px;
+  text-shadow: 2px 2px 1px #26d0c9, -2px 2px 1px #26d0c9, 2px -2px 1px #26d0c9, -2px -2px 1px #26d0c9;
 }
 
 .Contact li {
@@ -231,13 +236,21 @@ nav a:hover {
   height: 200px;
   color: #00FFFF;
   background-color: #000;
-  border: 1px solid #FFF;
+  border: 1px solid #26d0c9;
   font-size: 100px;
+}
+
+.Contact li:hover{
+  background-color: #26d0c9;
 }
 
 .Contact i {
   padding-top: 20%;
   color: #00FFFF;
+}
+
+.Contact i:hover{
+  color: #000;
 }
 
 
@@ -248,5 +261,4 @@ footer {
   line-height: 10px;
   color: #000;
   height: 10px;
-  font-family: 'Open Sans Condensed', sans-serif;
 }
