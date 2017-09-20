@@ -70,7 +70,6 @@ nav a:hover {
 
 .top {
   background-image: url(../img/earth.jpg);
-  background-position: center;
   text-align: center;
   background-size: cover;
   width: 100vw;
@@ -81,29 +80,31 @@ nav a:hover {
 .AmI {
   color:#FFF;
   background-image: url(../img/hud.jpg);
+  background-position: center;
   text-align: center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
 }
 
 .AmI p {
   padding-top: 7%;
   text-align: center;
   font-size: 50px;
-  margin-bottom: 20%;
+  margin-bottom: 40%;
   text-shadow: 2px 2px 1px #26d0c9, -2px 2px 1px #26d0c9, 2px -2px 1px #26d0c9, -2px -2px 1px #26d0c9;
 }
 
 .AmI li {
-  padding: 10px 20px;
-  margin: 6% 0;
+  padding: 3% 5%;
+  margin: 2% 0;
   position: relative;
   width: 10%;
   height: 7%;
   left: 10%;
   right: auto;
   text-align: center;
+  font-size: 300%;
   background-color: #26d0c9;
   list-style-type: none;
 }
@@ -114,7 +115,7 @@ nav a:hover {
   text-align: center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
 }
 
 .Web p {
@@ -129,29 +130,18 @@ nav a:hover {
   text-shadow: 2px 2px 1px #B91C22, -2px 2px 1px #B91C22, 2px -2px 1px #B91C22, -2px -2px 1px #B91C22;
 }
 
-.float {
-  animation: float_7879 3s linear infinite;
-  transform-origin: 50% 50%;
-}
-
-@keyframes float_7879 {
-  0% { transform: translateY(0) }
-  33.33333% { transform: translateY(-6px) }
-  66.66667% { transform: translateY(0) }
-  100% { transform: translateY(0) }
-}
-
 .Web a{
   text-decoration: none;
-  padding: 50px 50px;
+  text-align: center;
+  padding: 30% 0;
   color: #000;
   font-size: 50px;
   text-shadow: 2px 2px 1px #B91C22, -2px 2px 1px #B91C22, 2px -2px 1px #B91C22, -2px -2px 1px #B91C22;
 }
 
 .Web li {
-  margin: 5% 6.5%;
-  padding: 50px 0;
+  margin: 5% 6.393%;
+  padding: 5% 0;
   width: 20%;
   height: 0%;
   list-style-type: none;
