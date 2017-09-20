@@ -24,9 +24,9 @@ nav {
   background-image: url(../img/basic.png);
   background-size: cover;
   border-radius: 90px;
-  font-size: 30px;
+  font-size: 40px;
   float:left;
-  margin: 10px 10px;
+  margin: 30px 30px;
   border: 1px solid #B91C22;
   margin-left: 30px;
   background-color: #000;
@@ -39,11 +39,11 @@ nav {
 }
 
 nav ul {
-margin-right: 20px;
+  margin-right: 40px;
 }
 
 nav li {
-  margin-top: 15px;
+  margin-top: 30px;
   margin-right: 10px;
   float: right;
   list-style-type: none;
@@ -53,6 +53,7 @@ nav li {
 }
 
 nav a {
+  font-size: 40px;
   margin: auto;
   padding: 15px 15px;
   text-decoration: none;
@@ -69,6 +70,7 @@ nav a:hover {
 
 .top {
   background-image: url(../img/earth.jpg);
+  text-align: center;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -78,6 +80,7 @@ nav a:hover {
 .AmI {
   color:#FFF;
   background-image: url(../img/hud.jpg);
+  text-align: center;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -95,6 +98,7 @@ nav a:hover {
   margin: 5% 0;
   padding: 10px 20px;
   position: relative;
+  font-size: 120%;
   width: 10%;
   height: 7%;
   left: 10%;
@@ -104,32 +108,9 @@ nav a:hover {
   list-style-type: none;
 }
 
-.shake {
-  animation: shake_2618 2.875s ease infinite;
-  transform-origin: 50% 50%;
-}
-
-@keyframes shake_2618 {
-  0% { transform:rotate(-12deg) }
-  6.95652% { transform:rotate(12deg) }
-  8.69565% { transform:rotate(24deg) }
-  15.65217% { transform:rotate(-24deg) }
-  17.39131% { transform:rotate(-24deg) }
-  24.34782% { transform:rotate(24deg) }
-  26.08696% { transform:rotate(24deg) }
-  33.04348% { transform:rotate(-24deg) }
-  34.78261% { transform:rotate(-24deg) }
-  41.73913% { transform:rotate(24deg) }
-  43.47826% { transform:rotate(24deg) }
-  50.43478% { transform:rotate(-24deg) }
-  52.17391% { transform:rotate(-24deg) }
-  59.13044% { transform:rotate(24deg) }
-  65.21739% { transform:rotate(0deg) }
-  100% { transform:rotate(0deg) }
-}
-
 .Web {
   background-image: url(../img/web.png);
+  text-align: center;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -160,9 +141,10 @@ nav a:hover {
 }
 
 .Web a{
+  text-decoration: none;
   padding: 50px 50px;
   color: #000;
-  font-size: 20px;
+  font-size: 50px;
   text-shadow: 2px 2px 1px #B91C22, -2px 2px 1px #B91C22, 2px -2px 1px #B91C22, -2px -2px 1px #B91C22;
 }
 
@@ -216,6 +198,7 @@ nav a:hover {
 
 .Contact {
   background-image: url(../img/contact.png);
+  text-align: center;
   background-size: cover;
   height: 50vh;
   padding-top: 7%;

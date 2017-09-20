@@ -7,6 +7,57 @@
   <link rel = "stylesheet" href = "css/style.css">
   <link rel = "stylesheet" href="css/font-awesome.min.css" >
   <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.balloon.js"></script>
+  <script>
+  $(function(){
+    $('#career').balloon({
+     position: "right",
+     offsetY: 100,
+     css: {
+       "height": "50%",
+       "font-family": "Good Times",
+       "opacity": "0.5",
+       "color": "#26d0c9",
+       "font-size": "16px",
+       "border-radius": "10px",
+       "border": "solid 2px #26d0c9",
+       "padding": "10px"
+     },
+     contents: 'Apr 2014 - current Bachelor of Science and Technology, Seikei Uni<br>Computer Science<br>Mar 2016 - current Life is Tech! Mentor / Internship<br>Minecraft()'
+    });
+
+   $('#skill').balloon({
+    position: "right",
+     offsetY: 130,
+    css: {
+      "height": "70%",
+      "font-family": "Good Times",
+      "opacity": "0.5",
+      "color": "#26d0c9",
+      "font-size": "16px",
+      "border-radius": "10px",
+      "border": "solid 2px #26d0c9",
+      "padding": "10px"
+    },
+    contents: ' ここには HTML を記述できます<br>▼ Google Chrome だと日付コントロール<br><input type="date">'
+   });
+   $('#mind').balloon({
+    position: "right",
+     offsetY: 310,
+    css: {
+      "height": "50%",
+      "font-family": "Good Times",
+      "opacity": "0.5",
+      "color": "#26d0c9",
+      "font-size": "16px",
+      "border-radius": "10px",
+      "border": "solid 2px #26d0c9",
+      "padding": "10px"
+    },
+    contents: 'ここには HTML を記述できます<br>▼ Google Chrome だと日付コントロール<br><input type="date">'
+   });
+  });
+</script>
   <title>A Sad Sexy Imp</title>
 </head>
 
@@ -25,9 +76,9 @@
   <div class =  "AmI" id = "AmI">
     <p>Your Friendly Neighborhood</p>
     <ul id="identity">
-      <li class = "shake" data-text="ツールチップ1">CAREER</li>
-      <li class = "shake" data-text="ツールチップ1">SKILL</li>
-      <li class = "shake" data-text="ツールチップ1">MIND</li>
+      <li><span id="career">CAREER</span></li>
+      <li><span id="skill">SKILL</span></li>
+      <li><span id="mind">MIND</span></li>
     </ul>
   </div>
 
