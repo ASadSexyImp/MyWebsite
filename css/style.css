@@ -203,7 +203,7 @@ nav a:hover {
 }
 
 .Contact li {
-  margin:0 17%;
+  margin:0 10%;
   text-align: center;
   list-style-type: none;
   float: left;
@@ -220,14 +220,13 @@ nav a:hover {
 }
 
 .Contact i {
-  padding-top: 20%;
+  padding: 25% 28%;
   color: #00FFFF;
 }
 
 .Contact i:hover{
   color: #000;
 }
-
 
 footer {
   letter-spacing: 3px;
