@@ -96,8 +96,8 @@ nav a:hover {
 }
 
 .AmI li {
-  padding: 3% 5%;
-  margin: 2% 0;
+  padding: 1% 3%;
+  margin: 1% 0;
   position: relative;
   width: 10%;
   height: 7%;
@@ -107,6 +107,18 @@ nav a:hover {
   font-size: 300%;
   background-color: #26d0c9;
   list-style-type: none;
+}
+
+.bright {
+  color: #00FFFF;
+}
+
+.back {
+  background-color: #00FFFF;
+}
+
+.big {
+  font-size: 30px;
 }
 
 .Web {
@@ -202,8 +214,17 @@ nav a:hover {
   text-shadow: 2px 2px 1px #26d0c9, -2px 2px 1px #26d0c9, 2px -2px 1px #26d0c9, -2px -2px 1px #26d0c9;
 }
 
+.right {
+  margin-right: 25%;
+  margin-left: 9%;
+}
+
+.left {
+  margin-left: 25%;
+  margin-right: 9%;
+}
+
 .Contact li {
-  margin:0 10%;
   text-align: center;
   list-style-type: none;
   float: left;
