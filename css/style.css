@@ -192,6 +192,14 @@ nav a:hover {
   text-align: center;
 }
 
+.Media2 {
+  background-image: url(../img/media2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+
 .Hitchhike {
   background-image: url(../img/hitchhike.jpg);
     background-position: center;
